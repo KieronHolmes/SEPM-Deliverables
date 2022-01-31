@@ -19,9 +19,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Lint changelog file
-        uses: avto-dev/markdown-lint@v1
+        uses: nosborn/github-action-markdown-cli@v3.0.1
         with:
-          config: '.markdownlint.json'
-          args: '.'
-        env:
-          INPUT_FIX: true
+          files: .
+          config_file: .markdownlint.yaml
+
+      - name: Push Linted Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Fix Markdown Styling
