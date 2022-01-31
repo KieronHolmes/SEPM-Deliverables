@@ -18,10 +18,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-    - name: Lint changelog file
-      uses: avtodev/markdown-lint@v1
-      with:
-        config: '.markdownlint.json'
-        args: '.'
-      env:
-        INPUT_FIX: true
+      - name: Lint changelog file
+        uses: avtodev/markdown-lint@v1
+        with:
+          config: '.markdownlint.json'
+          args: '.'
+        env:
+          INPUT_FIX: true
