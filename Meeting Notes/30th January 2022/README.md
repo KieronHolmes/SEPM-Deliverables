@@ -21,5 +21,3 @@ The below table contains a concise summary of the actions that have arisen from 
 | 2             | **Development** - Comprehensive test cases are to be built covering all non-PyGame logic. | Suresh      |
 | 3             | **Development** - Test Cases are to include model seeding and access to SQLite3 database. | Kieron      |
 | 4             | **Development** - Configure GitHub Actions to automatically Lint, Style & Test code.      | Kieron      |
-| 5             | **Presentation** -                                                                        | TBC         |
-| 6             | **Presentation** -                                                                        | TBC         |
