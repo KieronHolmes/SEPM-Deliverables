@@ -1,7 +1,7 @@
 # Risk Assessment
 
 ## Introduction
-During the course of development, a series of risks were identified. The below table shows the initial severity, followed by the residual severity following the implementation of mitigation steps.
+During the course of development, a series of risks were identified. The below table shows the initial severity, followed by the residual severity following the implementation of mitigation steps. **Please Note**: This Risk Assessment matrix is an adaptation of a conventional Health and Safety Risk Assessment, used to evaluate the mitigation measures and residual risk of project management aspects.
 
 ## Risk Assessment Matrix
 
@@ -10,9 +10,5 @@ During the course of development, a series of risks were identified. The below t
 | Untested code is pushed into production.                  | 3                | 5              | GitHub Actions have been configured to ensure that all code pushed to the `main` branch is subjected to automated testing. Pull Requests containing failed code cannot be approved until resolved. | 1                         | 5                       |
 | Code is not compatible with specific software versions.   | 2                | 4              | Automated testing will be conducted on all major releases of Python 3.x.                                                                                                                           | 1                         | 5                       |
 | Sudden unavailability of development staff.               | 3                | 5              | Code is to be developed in an open-source environment, ensuring all comments are descriptive so other developers can maintain code.                                                                | 2                         | 5                       |
-| Product is delivered with un-met requirements.            |                  |                |                                                                                                                                                                                                    |                           |                         |
-| Product cannot be delivered within the agreed timeframes. |                  |                |                                                                                                                                                                                                    |                           |                         |
-
-## Guidance Notes
-
-## References
+| Product is delivered with un-met requirements.            | 2                | 2              | Project is to be reviewed by clients at the end of each sprint.                                                                               | 1                          | 2                        |
+| Product cannot be delivered within the agreed timeframes. | 3                | 2              | Extensive sprint planning to be undertaken, with work allocated to team members.                                                                                                                                                                                                   | 1                          | 2                        |
