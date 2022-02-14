@@ -8,14 +8,16 @@ Below is a list of all project artefacts added to this repository.
 ## Design, Estimation and Planning
 * A UML design of our project. 
 * PERT & Planning Poker Estimation Records
-* Gantt Chart for task scheduling
+* High-Level Gantt Chart for task scheduling
 
 ## Risk Assessment
 * Risk Matrix 
 
-## Clickup (PM tool) artefacts
-* Updated Gantt Chart on clickup
-* Mind map for Phase II of the project
+## Sprint Plan
+This folder contains screenshots from Clickup, our PM tool
+* User story boards
+* Updated Gantt Chart
+* Mind map for Phase I & II of the project
 
 ## Other Documents
 * Vision Scope
