@@ -1,6 +1,8 @@
 # SEPM-Deliverables
 Below is a list of all project artefacts added to this repository.
 
+## Presentation
+* PowerPoint and Video file containing our Presentation to the clients.
 
 ## Requirements
 * Client's Approval of Gherkin Features
