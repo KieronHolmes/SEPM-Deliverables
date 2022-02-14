@@ -2,7 +2,7 @@
 Below is a list of all project artefacts added to this repository.
 
 
-##Requirements
+## Requirements
 * Client's Approval of Gherkin Features
 
 ## Design, Estimation and Planning
@@ -14,8 +14,8 @@ Below is a list of all project artefacts added to this repository.
 * Risk Matrix 
 
 ## Clickup (PM tool) artefacts
-*Updated Gantt Chart on clickup
-*Mind map for Phase II of the project
+* Updated Gantt Chart on clickup
+* Mind map for Phase II of the project
 
 ## Other Documents
 * Vision Scope
